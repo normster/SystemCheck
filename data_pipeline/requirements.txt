@@ -1,0 +1,11 @@
+openai
+anthropic
+jsonlines
+scrapfly-sdk
+python-dotenv
+lxml
+tenacity
+tqdm
+ipykernel
+regex
+datasets

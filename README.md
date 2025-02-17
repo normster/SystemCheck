@@ -1,0 +1,32 @@
+# RealGuardrails
+
+<div align="center">
+
+[[📚 Dataset]](https://huggingface.co/datasets/normster/RealGuardrails) [[🏁 Checkpoints]](https://huggingface.co/collections/normster/realguardrails-67ad484a279716130f624a49)
+
+</div>
+
+This repository contains code for our paper, [_A Closer Look at System Prompt Robustness_](./paper.pdf), which studies the robustness of system prompt adherence/precedence in language models.
+
+This repo includes:
+
+* **evals**: Evaluation scripts for benchmarking models on RealGuardrails, Monkey Island stress test, S-RuLES, TensorTrust, S-IFEval, and MMLU
+* **data_pipeline**: Scripts for generating synthetic training data
+
+- `evals/`: Evaluation scripts and benchmarks
+  - RealGuardrails benchmark and Monkey Island stress test
+  - S-RuLES, TensorTrust, S-IFEval, and MMLU evaluations
+  - See [evals/EVALS.md](evals/EVALS.md) for usage
+
+- `data_pipeline/`: Synthetic data generation pipeline
+  - User/assistant message generation
+  - Tool use capabilities: search, browsing, etc.
+  - See [data_pipeline/DATA_PIPELINE.md](data_pipeline/DATA_PIPELINE.md) for details
+
+## Data
+
+Our data is available on HuggingFace: [normster/RealGuardrails](https://huggingface.co/datasets/normster/RealGuardrails).
+
+## Models
+
+Fine-tuning was performed using the [torchllms](https://github.com/normster/torchllms) library. Trained model checkpoints are available on [HuggingFace](https://huggingface.co/collections/normster/realguardrails-models-67ad484a279716130f624a49).
