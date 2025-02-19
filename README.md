@@ -2,11 +2,11 @@
 
 <div align="center">
 
-[[📚 Dataset]](https://huggingface.co/datasets/normster/RealGuardrails) [[🏁 Checkpoints]](https://huggingface.co/collections/normster/realguardrails-67ad484a279716130f624a49)
+[[📝 Report]](https://arxiv.org/abs/2502.12197) [[📚 Dataset]](https://huggingface.co/datasets/normster/RealGuardrails) [[🏁 Checkpoints]](https://huggingface.co/collections/normster/realguardrails-67ad484a279716130f624a49)
 
 </div>
 
-This repository contains code for our paper, [_A Closer Look at System Prompt Robustness_](./paper.pdf), which studies the robustness of system prompt adherence/precedence in language models.
+This repository contains code for our paper, [_A Closer Look at System Prompt Robustness_](https://arxiv.org/abs/2502.12197), which studies the robustness of system prompt adherence/precedence in language models.
 
 This repo includes:
 
