@@ -30,3 +30,21 @@ Our data is available on HuggingFace: [normster/RealGuardrails](https://huggingf
 ## Models
 
 Fine-tuning was performed using the [torchllms](https://github.com/normster/torchllms) library. Trained model checkpoints are available on [HuggingFace](https://huggingface.co/collections/normster/realguardrails-models-67ad484a279716130f624a49).
+
+## Citation
+
+If you would like to cite this work, you may use the following BibTeX entry:
+
+Authors: Norman Mu, Jonathan Lu, Michael Lavery, David Wagner
+
+```bibtex
+@misc{mu2025closerlookpromptrobustness,
+      title={A Closer Look at System Prompt Robustness}, 
+      author={Norman Mu and Jonathan Lu and Michael Lavery and David Wagner},
+      year={2025},
+      eprint={2502.12197},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.12197}, 
+}
+```
