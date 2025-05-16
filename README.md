@@ -1,12 +1,12 @@
-# RealGuardrails
+# SystemCheck
 
 <div align="center">
 
-[[📝 Report]](https://arxiv.org/abs/2502.12197) [[📚 Dataset]](https://huggingface.co/datasets/normster/RealGuardrails) [[🏁 Checkpoints]](https://huggingface.co/collections/normster/realguardrails-67ad484a279716130f624a49)
+[[📝 Report]](https://arxiv.org/abs/2502.12197) [[📚 Dataset]](https://huggingface.co/datasets/normster/SystemCheck) [[🏁 Checkpoints]]([https://huggingface.co/collections/normster/realguardrails-67ad484a279716130f624a49](https://huggingface.co/collections/normster/systemcheck-67ad484a279716130f624a49))
 
 </div>
 
-This repository contains code for our paper, [_A Closer Look at System Prompt Robustness_](https://arxiv.org/abs/2502.12197), which studies the robustness of system prompt adherence/precedence in language models.
+This repository contains code for our paper, [SystemCheck: A Closer Look at System Prompt Reliability](https://arxiv.org/abs/2502.12197), which studies the reliability of system prompts in large language models.
 
 This repo includes:
 
@@ -25,11 +25,11 @@ This repo includes:
 
 ## Data
 
-Our data is available on HuggingFace: [normster/RealGuardrails](https://huggingface.co/datasets/normster/RealGuardrails).
+Our data is available on HuggingFace: [normster/SystemCheck](https://huggingface.co/datasets/normster/SystemCheck).
 
 ## Models
 
-Fine-tuning was performed using the [torchllms](https://github.com/normster/torchllms) library. Trained model checkpoints are available on [HuggingFace](https://huggingface.co/collections/normster/realguardrails-models-67ad484a279716130f624a49).
+Fine-tuning was performed using the [torchllms](https://github.com/normster/torchllms) library. Trained model checkpoints are available on [HuggingFace](https://huggingface.co/collections/normster/realguardrails-67ad484a279716130f624a49).
 
 ## Citation
 
