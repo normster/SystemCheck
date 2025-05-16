@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[[📝 Report]](https://arxiv.org/abs/2502.12197) [[📚 Dataset]](https://huggingface.co/datasets/normster/SystemCheck) [[🏁 Checkpoints]]([https://huggingface.co/collections/normster/realguardrails-67ad484a279716130f624a49](https://huggingface.co/collections/normster/systemcheck-67ad484a279716130f624a49))
+[[📝 Report]](https://arxiv.org/abs/2502.12197) [[📚 Dataset]](https://huggingface.co/datasets/normster/SystemCheck) [[🏁 Checkpoints]](https://huggingface.co/collections/normster/realguardrails-67ad484a279716130f624a49)
 
 </div>
 
