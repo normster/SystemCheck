@@ -16,6 +16,7 @@ This repo includes:
 - `evals/`: Evaluation scripts and benchmarks
   - RealGuardrails benchmark and Monkey Island stress test
   - S-RuLES, TensorTrust, S-IFEval, and MMLU evaluations
+  - StrongREJECT with CoT Forgery attack (Ye, Cui & Hadfield-Menell 2026)
   - See [evals/EVALS.md](evals/EVALS.md) for usage
 
 - `data_pipeline/`: Synthetic data generation pipeline
