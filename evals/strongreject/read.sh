@@ -6,7 +6,17 @@
 #
 # Examples:
 #   bash SystemCheck/evals/strongreject/read.sh gpt-oss-20b
-#   bash SystemCheck/evals/strongreject/read.sh gpt-oss-20b google/gemini-2.5-pro 1000
+#   bash SystemCheck/evals/strongreject/read.sh gpt-oss-20b gemini-2.5-pro 1000
+#
+# Notes on "missing" responses:
+#   During generation (run.sh), responses that hit the max_tokens limit or
+#   error out are recorded as "missing". This is most common with rot_13
+#   (model burns tokens decoding ROT13) and cot_forgery (reasoning loops).
+#   These are sent to the judge and typically classified as REFUSAL, which
+#   is conservative (undercounts ASR). Check the run.sh logs for
+#   "[OpenAI] WARNING: N/M responses are 'missing'" to see how many.
+#   The judge may also return "missing" if Gemini's content_filter blocks
+#   the judge request (logged as finish_reason=content_filter).
 
 set -euo pipefail
 
